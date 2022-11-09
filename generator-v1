@@ -15,7 +15,7 @@
 	<label>
 		Enter your topic of interest: 
 		<input type="text" id="interest">
-		<i>Note: In V1 of this tool, the two available topics are Makerspace or VR. Future versions will allow you to input other choices should you wish!</i>
+		<i>Note: In V1 of this tool, the only available topic is Makerspace. Future versions will allow you to input other choices should you wish!</i>
 	</label>
 	<br>
 	<br>
@@ -42,10 +42,13 @@
 		<!-- this pulls the javascript get elements for the confirmation details -->
 		<p id="choices"></p>
 	</div>
+	<!-- this div might be the recommendations one-->
+	<div id="recommendationsDiv" style"display:none;" class="details_outcome"/>
+
 	
 	<!-- The next bit is all of the javascript that gets all of the interactive elements working together with the HTML -->  
 	<script>
-    // These parts make the HTML elements/inputs into javascript variables that you can play with
+    // These parts make the HTML elements/inputs into javascript variables that can be used later in the code
 		// Textbox elements
 		let nameBox = document.getElementById("name");
 		let interestBox = document.getElementById("interest");
@@ -74,15 +77,27 @@
 			thirtyButton.style.background="blue";
 			thirtyButton.style.color="white";
 			}
-    //This is the function to show the learning journey once the user has made their selections. I need to work on improving this a lot!!!
+    //This is the function to show the learning journey once the user has made their selections. 
 		function submitDetails() {
 	//This makes the div show once you click on the button, otherwise it is hidden
 			document.getElementById('detailsDiv').style.dislay = "block";
+	//This takes all their submission info and shows it in one place
 			document.getElementById("choices").innerHTML = "That's great, " + nameBox.value + ", thanks for your submission! You have told us you have " + timeBox.value + " minutes to study and your topic of interest is " + interestBox.value + ". Let's take a look at your learning journey for today!";
+	//A variable 
+			if (timeBox.value == "5" || interestBox.value == "Makerspace") {
+				rec = "Here is a very quick YouTube video to support your Makerspace learning today: LINK GOES HERE";
+			} else if (timeBox.value == "15" || interestBox.value == "Makerspace") {
+				rec = "Here is a fifteen minute activity to support your Makerspace learning today: ACTIVITY GOES HERE";
+			} else if (timeBox.value == "30" || interestBox.value == "Makerspace") {
+				rec = "Here is a long YouTube video and an activity to put your learning into practice: PUT INFO HERE";
+			} else {
+				rec = "You have not made a selection! Please try again.";
+			}
+	//Shows the recommendations based on user input by using the variables above
+			document.getElementById('recommendationsDiv').innerHTML = rec;
 	}
-	//The next bit is to use the variables to make a customised recommendation
 	</script>
-    <!-- taddah the end!!! -->
+<!-- taddah the end!!! -->
 </body>
 </html>
 
