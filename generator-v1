@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Professional Learning Generator V1</title>
+</head>
+<body>
+	<h1>Welcome to the Professional Learning Generator, Version 1.0</h1>
+	<p>This tool will take into account the <b>time you have available</b> and your <b>areas of interest</b> to provide you with <b>bespoke next steps</b> in your professional learning journey.</p>
+	<label>
+		Enter your name:
+		<input type="text" id="name">
+	</label>
+	<br>
+	<br>
+	<label>
+		Enter your topic of interest: 
+		<input type="text" id="interest">
+		<i>Note: In V1 of this tool, the two available topics are Makerspace or VR. Future versions will allow you to input other choices should you wish!</i>
+	</label>
+	<br>
+	<br>
+	<label>
+		How much time do you have available to study today?
+	</label>
+	<button id="timeFive">
+		5 minutes or less
+	</button>
+	<button id="timeFifteen">
+		15 minutes
+	</button>
+    <button id="timeThirty">
+		30 minutes or more
+	</button>
+	<input readonly type="text" id="time">
+	<br>
+	<br>
+	<button id="submit" onclick="submitDetails()">
+		Submit
+	</button>
+	<!-- The below div is hidden unless you click on the learning journey button -->
+	<div id="detailsDiv" style"display:none;" class="details_outcome" />
+		<!-- this pulls the javascript get elements for the confirmation details -->
+		<p id="choices"></p>
+	</div>
+	
+	<!-- The next bit is all of the javascript that gets all of the interactive elements working together with the HTML -->  
+	<script>
+    // These parts make the HTML elements/inputs into javascript variables that you can play with
+		// Textbox elements
+		let nameBox = document.getElementById("name");
+		let interestBox = document.getElementById("interest");
+		var timeBox = document.getElementById("time");
+    	// Button elements
+    	var fiveButton = document.getElementById("timeFive");
+    	var fifteenButton = document.getElementById("timeFifteen");
+    	var thirtyButton = document.getElementById("timeThirty");
+		// These statements tell the buttons what to do when they are clicked
+		fiveButton.addEventListener("click", pressFiveMinutes);
+		fifteenButton.addEventListener("click", pressFifteenMinutes);
+		thirtyButton.addEventListener("click", pressThirtyMinutes);    
+		// The following functions turn a click into a number in the read-only textbox that can then be used as a variable and makes them go blue when clicked
+		function pressFiveMinutes() {
+			timeBox.value = 5;
+			fiveButton.style.background="blue";
+			fiveButton.style.color="white";
+			}   
+		function pressFifteenMinutes() {
+			timeBox.value = 15;
+			fifteenButton.style.background="blue";
+			fifteenButton.style.color="white";
+			}   
+		function pressThirtyMinutes() {
+			timeBox.value = 30;
+			thirtyButton.style.background="blue";
+			thirtyButton.style.color="white";
+			}
+    //This is the function to show the learning journey once the user has made their selections. I need to work on improving this a lot!!!
+		function submitDetails() {
+			//This makes the div show once you click on the button, otherwise it is hidden
+			document.getElementById('detailsDiv').style.dislay = "block";
+			document.getElementById("choices").innerHTML = "That's great, " + nameBox.value + ", thanks for your submission! You have told us you have " + timeBox.value + " minutes to study and your topic of interest is " + interestBox.value + ". Let's take a look at your learning journey for today!";
+	// this bit needs to give the user their recommendations here 
+  		}
+	</script>
+  
+
+
+  <!-- taddah the end!!! -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
