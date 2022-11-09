@@ -14,6 +14,7 @@ PL-Gen is a Professional Learning Generator that will take your topics of intere
 <br>
 <b>Developer Notes</b>
 <br>
+<br>
 This tool has been produced as a proof of concept and thus is at its most basic form. Plans for future development include:
 <ul>
   <li>Improved use of HTML and CSS for a more user-friendly interface. Eventually I would like there to be more engaging buttons, colour-coded themes (e.g. colour-coded areas of interest or perhaps types of learning).</li>
