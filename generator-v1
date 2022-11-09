@@ -76,16 +76,13 @@
 			}
     //This is the function to show the learning journey once the user has made their selections. I need to work on improving this a lot!!!
 		function submitDetails() {
-			//This makes the div show once you click on the button, otherwise it is hidden
+	//This makes the div show once you click on the button, otherwise it is hidden
 			document.getElementById('detailsDiv').style.dislay = "block";
 			document.getElementById("choices").innerHTML = "That's great, " + nameBox.value + ", thanks for your submission! You have told us you have " + timeBox.value + " minutes to study and your topic of interest is " + interestBox.value + ". Let's take a look at your learning journey for today!";
-	// this bit needs to give the user their recommendations here 
-  		}
+	}
+	//The next bit is to use the variables to make a customised recommendation
 	</script>
-  
-
-
-  <!-- taddah the end!!! -->
+    <!-- taddah the end!!! -->
 </body>
 </html>
 
