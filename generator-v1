@@ -106,7 +106,7 @@
 			} else {
 				rec = "You have not made a selection! Please try again.";
 			}
-	//Shows the recommendations based on user input by using the variables above
+	//Shows the recommendations based on user input by using the variables above - in future iterations this will be changed to be specific to the different selections people have made.
 			document.getElementById('recommendationsDiv').innerHTML = rec;
 	//Make a new element for links for recommendations  	
 			var recEl = document.createElement("a");
@@ -120,6 +120,6 @@
 			document.getElementById('recommendationsDiv').appendChild(recEl);
 			}
 	</script>
-<!-- taddah the end!!! -->
+<!-- Taddah the end!!! Thank you for reading the source code for this project. I am still learning both HTML and JavaScript so please bear with me if/when you find errors! -->
 </body>
 </html>
