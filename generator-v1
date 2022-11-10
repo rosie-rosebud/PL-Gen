@@ -66,16 +66,28 @@
 			timeBox.value = 5;
 			fiveButton.style.background="blue";
 			fiveButton.style.color="white";
+			fifteenButton.style.background="white";
+			fifteenButton.style.color="black";
+			thirtyButton.style.background="white";
+			thirtyButton.style.color="black";
 			}   
 		function pressFifteenMinutes() {
 			timeBox.value = 15;
 			fifteenButton.style.background="blue";
 			fifteenButton.style.color="white";
+			fiveButton.style.background="white";
+			fiveButton.style.color="black";
+			thirtyButton.style.background="white";
+			thirtyButton.style.color="black";
 			}   
 		function pressThirtyMinutes() {
 			timeBox.value = 30;
 			thirtyButton.style.background="blue";
 			thirtyButton.style.color="white";
+			fiveButton.style.background="white";
+			fiveButton.style.color="black";
+			fifteenButton.style.background="white";
+			fifteenButton.style.color="black";
 			}
     //This is the function to show the learning journey once the user has made their selections. 
 		function submitDetails() {
@@ -83,40 +95,31 @@
 			document.getElementById('detailsDiv').style.dislay = "block";
 	//This takes all their submission info and shows it in one place
 			document.getElementById("choices").innerHTML = "That's great, " + nameBox.value + ", thanks for your submission! You have told us you have " + timeBox.value + " minutes to study and your topic of interest is " + interestBox.value + ". Let's take a look at your learning journey for today!";
-	//A variable 
-			if (timeBox.value == "5" || interestBox.value == "Makerspace") {
-				rec = "Here is a very quick YouTube video to support your Makerspace learning today: LINK GOES HERE";
-			} else if (timeBox.value == "15" || interestBox.value == "Makerspace") {
-				rec = "Here is a fifteen minute activity to support your Makerspace learning today: ACTIVITY GOES HERE";
-			} else if (timeBox.value == "30" || interestBox.value == "Makerspace") {
-				rec = "Here is a long YouTube video and an activity to put your learning into practice: PUT INFO HERE";
+	
+	//A variable example using makerspacee
+			if (timeBox.value == "5" && interestBox.value == "Makerspace") {
+				rec = "Here is a very quick YouTube video to support your Makerspace learning today: ";
+			} else if (timeBox.value == "15" && interestBox.value == "Makerspace") {
+				rec = "Here is a fifteen minute video to support your Makerspace learning today: ";
+			} else if (timeBox.value == "30" && interestBox.value == "Makerspace") {
+				rec = "Here is a long YouTube video and an activity to put your learning into practice: ";
 			} else {
 				rec = "You have not made a selection! Please try again.";
 			}
 	//Shows the recommendations based on user input by using the variables above
 			document.getElementById('recommendationsDiv').innerHTML = rec;
-	}
+	//Make a new element for links for recommendations  	
+			var recEl = document.createElement("a");
+	//Create the text for the anchor tag
+			var recContent = document.createTextNode("Click here");
+	//Put the text in the anchor tag
+			recEl.appendChild(recContent);		
+	//Set the URL of the anchor tag
+			recEl.href = "https://www.youtube.com";
+	//Connect the full YouTube link to the recommendationsDiv
+			document.getElementById('recommendationsDiv').appendChild(recEl);
+			}
 	</script>
 <!-- taddah the end!!! -->
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
