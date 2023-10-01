@@ -1,0 +1,386 @@
+{
+  "5 min": {
+    "ubiquitous": {
+      "ey": [
+        "Recommendation 1 for 5 min Ubiquitous Learning for EY",
+        "Recommendation 2 for 5 min Ubiquitous Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Ubiquitous Learning for primary",
+        "Recommendation 2 for 5 min Ubiquitous Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Ubiquitous Learning for high school",
+        "Recommendation 2 for 5 min Ubiquitous Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Ubiquitous Learning for IB",
+        "Recommendation 2 for 5 min Ubiquitous Learning for IB"
+      ]
+    },
+    "active": {
+      "ey": [
+        "Recommendation 1 for 5 min Active Knowledge Making for EY",
+        "Recommendation 2 for 5 min Active Knowledge Making for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Active Knowledge Making for primary",
+        "Recommendation 2 for 5 min Active Knowledge Making for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Active Knowledge Making for high school",
+        "Recommendation 2 for 5 min Active Knowledge Making for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Active Knowledge Making for IB",
+        "Recommendation 2 for 5 min Active Knowledge Making for IB"
+      ]
+    },
+    "multi": {
+      "ey": [
+        "Recommendation 1 for 5 min Multimodal Meaning for EY",
+        "Recommendation 2 for 5 min Multimodal Meaning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Multimodal Meaning for primary",
+        "Recommendation 2 for 5 min Multimodal Meaning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Multimodal Meaning for high school",
+        "Recommendation 2 for 5 min Multimodal Meaning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Multimodal Meaning for IB",
+        "Recommendation 2 for 5 min Multimodal Meaning for IB"
+      ]
+    },
+    "recursive": {
+      "ey": [
+        "Recommendation 1 for 5 min Recursive Feedback for EY",
+        "Recommendation 2 for 5 min Recursive Feedback for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Recursive Feedback for primary",
+        "Recommendation 2 for 5 min Recursive Feedback for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Recursive Feedback for high school",
+        "Recommendation 2 for 5 min Recursive Feedback for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Recursive Feedback for IB",
+        "Recommendation 2 for 5 min Recursive Feedback for IB"
+      ]
+    },
+    "collab": {
+      "ey": [
+        "Recommendation 1 for 5 min Collaborative Intelligence for EY",
+        "Recommendation 2 for 5 min Collaborative Intelligence for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Collaborative Intelligence for primary",
+        "Recommendation 2 for 5 min Collaborative Intelligence for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Collaborative Intelligence for high school",
+        "Recommendation 2 for 5 min Collaborative Intelligence for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Collaborative Intelligence for IB",
+        "Recommendation 2 for 5 min Collaborative Intelligence for IB"
+      ]
+    },
+    "meta": {
+      "ey": [
+        "Recommendation 1 for 5 min Metacognition for EY",
+        "Recommendation 2 for 5 min Metacognition for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Metacognition for primary",
+        "Recommendation 2 for 5 min Metacognition for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Metacognition for high school",
+        "Recommendation 2 for 5 min Metacognition for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Metacognition for IB",
+        "Recommendation 2 for 5 min Metacognition for IB"
+      ]
+    },
+    "diff": {
+      "ey": [
+        "Recommendation 1 for 5 min Differentiated Learning for EY",
+        "Recommendation 2 for 5 min Differentiated Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 5 min Differentiated Learning for primary",
+        "Recommendation 2 for 5 min Differentiated Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 5 min Differentiated Learning for high school",
+        "Recommendation 2 for 5 min Differentiated Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 5 min Differentiated Learning for IB",
+        "Recommendation 2 for 5 min Differentiated Learning for IB"
+      ]
+    }
+  },
+  "15 min": {
+    "ubiquitous": {
+      "ey": [
+        "Recommendation 1 for 15 min Ubiquitous Learning for EY",
+        "Recommendation 2 for 15 min Ubiquitous Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Ubiquitous Learning for primary",
+        "Recommendation 2 for 15 min Ubiquitous Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Ubiquitous Learning for high school",
+        "Recommendation 2 for 15 min Ubiquitous Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Ubiquitous Learning for IB",
+        "Recommendation 2 for 15 min Ubiquitous Learning for IB"
+      ]
+    },
+    "active": {
+      "ey": [
+        "Recommendation 1 for 15 min Active Knowledge Making for EY",
+        "Recommendation 2 for 15 min Active Knowledge Making for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Active Knowledge Making for primary",
+        "Recommendation 2 for 15 min Active Knowledge Making for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Active Knowledge Making for high school",
+        "Recommendation 2 for 15 min Active Knowledge Making for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Active Knowledge Making for IB",
+        "Recommendation 2 for 15 min Active Knowledge Making for IB"
+      ]
+    },
+    "multi": {
+      "ey": [
+        "Recommendation 1 for 15 min Multimodal Meaning for EY",
+        "Recommendation 2 for 15 min Multimodal Meaning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Multimodal Meaning for primary",
+        "Recommendation 2 for 15 min Multimodal Meaning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Multimodal Meaning for high school",
+        "Recommendation 2 for 15 min Multimodal Meaning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Multimodal Meaning for IB",
+        "Recommendation 2 for 15 min Multimodal Meaning for IB"
+      ]
+    },
+    "recursive": {
+      "ey": [
+        "Recommendation 1 for 15 min Recursive Feedback for EY",
+        "Recommendation 2 for 15 min Recursive Feedback for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Recursive Feedback for primary",
+        "Recommendation 2 for 15 min Recursive Feedback for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Recursive Feedback for high school",
+        "Recommendation 2 for 15 min Recursive Feedback for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Recursive Feedback for IB",
+        "Recommendation 2 for 15 min Recursive Feedback for IB"
+      ]
+    },
+    "collab": {
+      "ey": [
+        "Recommendation 1 for 15 min Collaborative Intelligence for EY",
+        "Recommendation 2 for 15 min Collaborative Intelligence for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Collaborative Intelligence for primary",
+        "Recommendation 2 for 15 min Collaborative Intelligence for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Collaborative Intelligence for high school",
+        "Recommendation 2 for 15 min Collaborative Intelligence for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Collaborative Intelligence for IB",
+        "Recommendation 2 for 15 min Collaborative Intelligence for IB"
+      ]
+    },
+    "meta": {
+      "ey": [
+        "Recommendation 1 for 15 min Metacognition for EY",
+        "Recommendation 2 for 15 min Metacognition for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Metacognition for primary",
+        "Recommendation 2 for 15 min Metacognition for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Metacognition for high school",
+        "Recommendation 2 for 15 min Metacognition for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Metacognition for IB",
+        "Recommendation 2 for 15 min Metacognition for IB"
+      ]
+    },
+    "diff": {
+      "ey": [
+        "Recommendation 1 for 15 min Differentiated Learning for EY",
+        "Recommendation 2 for 15 min Differentiated Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 15 min Differentiated Learning for primary",
+        "Recommendation 2 for 15 min Differentiated Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 15 min Differentiated Learning for high school",
+        "Recommendation 2 for 15 min Differentiated Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 15 min Differentiated Learning for IB",
+        "Recommendation 2 for 15 min Differentiated Learning for IB"
+      ]
+    }
+  },
+  "30 min": {
+    "ubiquitous": {
+      "ey": [
+        "Recommendation 1 for 30 min Ubiquitous Learning for EY",
+        "Recommendation 2 for 30 min Ubiquitous Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Ubiquitous Learning for primary",
+        "Recommendation 2 for 30 min Ubiquitous Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Ubiquitous Learning for high school",
+        "Recommendation 2 for 30 min Ubiquitous Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Ubiquitous Learning for IB",
+        "Recommendation 2 for 30 min Ubiquitous Learning for IB"
+      ]
+    },
+    "active": {
+      "ey": [
+        "Recommendation 1 for 30 min Active Knowledge Making for EY",
+        "Recommendation 2 for 30 min Active Knowledge Making for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Active Knowledge Making for primary",
+        "Recommendation 2 for 30 min Active Knowledge Making for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Active Knowledge Making for high school",
+        "Recommendation 2 for 30 min Active Knowledge Making for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Active Knowledge Making for IB",
+        "Recommendation 2 for 30 min Active Knowledge Making for IB"
+      ]
+    },
+    "multi": {
+      "ey": [
+        "Recommendation 1 for 30 min Multimodal Meaning for EY",
+        "Recommendation 2 for 30 min Multimodal Meaning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Multimodal Meaning for primary",
+        "Recommendation 2 for 30 min Multimodal Meaning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Multimodal Meaning for high school",
+        "Recommendation 2 for 30 min Multimodal Meaning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Multimodal Meaning for IB",
+        "Recommendation 2 for 30 min Multimodal Meaning for IB"
+      ]
+    },
+    "recursive": {
+      "ey": [
+        "Recommendation 1 for 30 min Recursive Feedback for EY",
+        "Recommendation 2 for 30 min Recursive Feedback for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Recursive Feedback for primary",
+        "Recommendation 2 for 30 min Recursive Feedback for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Recursive Feedback for high school",
+        "Recommendation 2 for 30 min Recursive Feedback for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Recursive Feedback for IB",
+        "Recommendation 2 for 30 min Recursive Feedback for IB"
+      ]
+    },
+    "collab": {
+      "ey": [
+        "Recommendation 1 for 30 min Collaborative Intelligence for EY",
+        "Recommendation 2 for 30 min Collaborative Intelligence for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Collaborative Intelligence for primary",
+        "Recommendation 2 for 30 min Collaborative Intelligence for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Collaborative Intelligence for high school",
+        "Recommendation 2 for 30 min Collaborative Intelligence for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Collaborative Intelligence for IB",
+        "Recommendation 2 for 30 min Collaborative Intelligence for IB"
+      ]
+    },
+    "meta": {
+      "ey": [
+        "Recommendation 1 for 30 min Metacognition for EY",
+        "Recommendation 2 for 30 min Metacognition for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Metacognition for primary",
+        "Recommendation 2 for 30 min Metacognition for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Metacognition for high school",
+        "Recommendation 2 for 30 min Metacognition for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Metacognition for IB",
+        "Recommendation 2 for 30 min Metacognition for IB"
+      ]
+    },
+    "diff": {
+      "ey": [
+        "Recommendation 1 for 30 min Differentiated Learning for EY",
+        "Recommendation 2 for 30 min Differentiated Learning for EY"
+      ],
+      "primary": [
+        "Recommendation 1 for 30 min Differentiated Learning for primary",
+        "Recommendation 2 for 30 min Differentiated Learning for primary"
+      ],
+      "high school": [
+        "Recommendation 1 for 30 min Differentiated Learning for high school",
+        "Recommendation 2 for 30 min Differentiated Learning for high school"
+      ],
+      "ib": [
+        "Recommendation 1 for 30 min Differentiated Learning for IB",
+        "Recommendation 2 for 30 min Differentiated Learning for IB"
+      ]
+    }
+  }
+}
