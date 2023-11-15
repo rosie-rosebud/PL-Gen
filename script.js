@@ -1,3 +1,9 @@
+// Wrap the entire code in an async function and call it to start execution
+async function main() {
+
+
+
+
 // Connect HTML elements to JavaScript
 const detailsDiv = document.getElementById("detailsDiv");
 const recommendationsDiv = document.getElementById("recommendationsDiv");
@@ -19,6 +25,8 @@ async function submitDetails() {
   document.getElementById("choices").textContent = choicesMessage;
 
   try {
+
+ 
     // Load recommendations from the JSON file
     const recommendations = await loadRecommendations();
 
@@ -36,6 +44,7 @@ async function submitDetails() {
     console.error("Error loading or processing recommendations:", error);
   }
 }
+
 
 // Function to generate a random recommendation based on loaded recommendations
 function generateRandomRecommendation(recommendations, userTime, userInterest) {
@@ -66,9 +75,6 @@ async function loadRecommendations() {
   }
 }
 
-// Wrap the entire code in an async function and call it to start execution
-async function main() {
-  // Your code here
 
   // Add event listener for the "Submit" button
   const submitButton = document.getElementById("submit");
